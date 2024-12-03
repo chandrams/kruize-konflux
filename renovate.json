@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "github>konflux-ci/mintmaker/config/renovate/renovate.json"
+  ]  
+  "git-submodules": {
+    "enabled": true,
+    "additionalBranchPrefix": "{{baseBranch}}/",
+    "branchPrefix": "konflux/mintmaker/",
+    "schedule": [
+      "after 4pm on monday"
+    ]
+  }  
+}
+
